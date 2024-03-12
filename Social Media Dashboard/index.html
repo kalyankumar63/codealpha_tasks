@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <title>
+      Frontend Mentor | [Social Media Dashboard with Theme Switcher]
+    </title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="header">
+        <div class="title">
+          <h1>Social Media Dashboard</h1>
+          <p>Total Followers: 23,004</p>
+        </div>
+        <div class="theme-switch">
+          <label for="theme-toggle">
+            Dark Mode
+          </label>
+          <input
+            id="theme-toggle"
+            class="toggle"
+            aria-label="theme toggle"
+            type="checkbox"
+          />
+        </div>
+      </div>
+      <div class="accounts">
+        <div class="account">
+          <p>
+            <img alt="Facebook icon" src="./images/icon-facebook.svg" />
+            <span> @kalyan</span>
+          </p>
+          <p class="follower-number">1987</p>
+          <p>Followers</p>
+          <p class="green">
+            <img alt="Up arrow" src="./images/icon-up.svg" />
+            <span> 12 Today</span>
+          </p>
+        </div>
+        <div class="account">
+          <p>
+            <img alt="Twitter icon" src="./images/icon-twitter.svg" />
+            <span>@kalyan</span>
+          </p>
+          <p class="follower-number">1044</p>
+          <p>Followers</p>
+          <p class="green">
+            <img alt="Up arrow" src="./images/icon-up.svg" />
+            <span> 99 Today</span>
+          </p>
+        </div>
+        <div class="account">
+          <p>
+            <img alt="Instagram icon" src="./images/icon-instagram.svg" />
+            <span> @kalyan</span>
+          </p>
+          <p class="follower-number">11k</p>
+          <p>Followers</p>
+          <p class="green">
+            <img alt="Up arrow" src="./images/icon-up.svg" />
+            <span> 1099 Today</span>
+          </p>
+        </div>
+        <div class="account">
+          <p>
+            <img alt="YouTube icon" src="./images/icon-youtube.svg" />
+            <span> Kalyan Kumar.</span>
+          </p>
+          <p class="follower-number">8239</p>
+          <p>Subscribers</p>
+          <p class="red">
+            <img alt="Down arrow" src="./images/icon-down.svg" />
+            <span> 144 Today</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="subheading">
+        <h2>
+          Overview - Today
+        </h2>
+      </div>
+      <div class="overview">
+        <div class="card">
+          <p>
+            Page Views
+            <img alt="Facebook icon" src="./images/icon-facebook.svg" />
+          </p>
+          <p>
+            <span class="information">87</span>
+            <span class="green"
+              ><img alt="Up arrow" src="./images/icon-up.svg" />3%</span
+            >
+          </p>
+        </div>
+        <div class="card">
+          <p>
+            Likes <img alt="Facebook icon" src="./images/icon-facebook.svg" />
+          </p>
+          <p>
+            <span class="information">52</span>
+            <span class="red"
+              ><img alt="Down arrow" src="./images/icon-down.svg" /> 2%</span
+            >
+          </p>
+        </div>
+        <div class="card">
+          <p>
+            Likes <img alt="Instagram icon" src="./images/icon-instagram.svg" />
+          </p>
+          <p>
+            <span class="information">5462</span>
+            <span class="green"
+              ><img alt="Up arrow" src="./images/icon-up.svg" /> 2257%</span
+            >
+          </p>
+        </div>
+        <div class="card">
+          <p>
+            Profile Views
+            <img alt="Instagram icon" src="./images/icon-instagram.svg" />
+          </p>
+          <p>
+            <span class="information">52k</span>
+            <span class="green"
+              ><img alt="Up arrow" src="./images/icon-up.svg" /> 1375%</span
+            >
+          </p>
+        </div>
+        <div class="card">
+          <p>
+            Retweets <img alt="Twitter icon" src="./images/icon-twitter.svg" />
+          </p>
+          <p>
+            <span class="information">117</span>
+            <span class="green">
+              <img alt="Up arrow" src="./images/icon-up.svg" />303%</span
+            >
+          </p>
+        </div>
+        <div class="card">
+          <p>
+            Likes <img alt="Twitter icon" src="./images/icon-twitter.svg" />
+          </p>
+          <p>
+            <span class="information">507</span>
+            <span class="green"
+              ><img alt="Up arrow" src="./images/icon-up.svg" />553%</span
+            >
+          </p>
+        </div>
+        <div class="card">
+          <p>
+            Likes <img alt="YouTube icon" src="./images/icon-youtube.svg" />
+          </p>
+          <p>
+            <span class="information">107</span>
+            <span class="red"
+              ><img alt="Down arrow" src="./images/icon-down.svg" /> 19%</span
+            >
+          </p>
+        </div>
+        <div class="card">
+          <p>
+            Total Views<img
+              alt="YouTube icon"
+              src="./images/icon-youtube.svg"
+            />
+          </p>
+          <p>
+            <span class="information">1407</span>
+            <span class="red"
+              ><img alt="Down arrow" src="./images/icon-down.svg" />12%</span
+            >
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer class="attribution">
+      <p>
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          Frontend Mentor</a
+        >. Coded by <a href="https://amyshackles.com">Amy Shackles</a>.
+      </p>
+    </footer>
+    <script>
+      document
+        .getElementById("theme-toggle")
+        .addEventListener("change", function(event) {
+          event.target.checked
+            ? document.body.setAttribute("data-theme", "light")
+            : document.body.removeAttribute("data-theme");
+        });
+    </script>
+  </body>
+</html>
